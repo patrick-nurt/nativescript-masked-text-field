@@ -1,0 +1,40 @@
+{
+	"name": "nativescript-masked-text-field",
+	"version": "3.0.1",
+	"description": "A NativeScript masked text field widget.",
+	"main": "masked-text-field",
+	"typings": "masked-text-field.d.ts",
+	"nativescript": {
+		"platforms": {
+			"android": "4.0.0",
+			"ios": "4.0.0"
+		},
+		"plugin": {
+			"nan": "true",
+			"pan": "true",
+			"core3": "true",
+			"category": "Interface"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PeterStaev/nativescript-masked-text-field"
+	},
+	"keywords": [
+		"NativeScript",
+		"masked input",
+		"mask",
+		"masked text field",
+		"phone",
+		"ssn",
+		"tangra"
+	],
+	"author": "Peter Staev <peter@tangrasoft.com>",
+	"contributors": [
+		"newapx (https://github.com/newapx)"
+	],
+	"license": "Apache-2.0",
+	"peerDependencies": {
+		"tns-core-modules": "^4"
+	}
+}

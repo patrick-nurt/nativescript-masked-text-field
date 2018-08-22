@@ -8,7 +8,7 @@
             "!node_modules/**/*.*",
             "!bin/**/*.*"
         ],
-        outDir: "bin/dist/"
+        outDir: "dist/"
     }
 
     grunt.initConfig({
